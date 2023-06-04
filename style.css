@@ -362,7 +362,7 @@ span {
 
 
 /* For Mobile */
-@media (max-width: 900px) {
+@media (min-resolution: 200dpi) {
     html, body {
         overflow-x: hidden;
     }
