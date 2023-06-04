@@ -374,7 +374,7 @@ span {
 
 
 /* For Mobile */
-@media (max-width: 1500px) {
+@media (min-resolution: 100dpi) {
     /* Nav */
     .header {
         position: fixed;
