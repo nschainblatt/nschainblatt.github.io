@@ -171,6 +171,7 @@ span {
     align-items: center;
     gap: 15rem;
     background: var(--second-bg-color);
+    width: 100%;
 }
 
 .about-img img {
@@ -214,6 +215,8 @@ span {
 /* Portfolio */
 .portfolio {
     background: var(--second-bg-color);
+    width: 100%;
+
 }
 
 .portfolio h2 {
