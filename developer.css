@@ -43,6 +43,10 @@ body {
     z-index: 100;
 }
 
+.header.sticky {
+    border-bottom: 0.1rem solid rgba(0,0,0,0.2);
+}
+
 .logo {
     font-size: 2.5rem;
     color: var(--text-color);
@@ -369,16 +373,7 @@ span {
     }
     /* Nav */
     .header {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        padding: 2rem 9%;
-        background-color: var(--bg-color);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        z-index: 100;
+        padding: 2rem 3%;
     }
 
     .logo {
@@ -394,6 +389,36 @@ span {
         margin-left: 1rem;
         margin-right: 1rem;
         line-height: 2rem;
+    }
+
+    #menu-icon {
+        display: block;
+    }
+
+   
+
+    .navbar {
+        display: none;
+        position:absolute;
+        top: 100%;
+        width: 100%;
+        left: 0;
+        padding: 1rem 3%;
+        background: var(--bg-color);
+        border-top: 0.1rem solid rgba(0,0,0,0.2);
+        box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.2);
+        transition: 0.5s ease-in;
+
+    }
+
+    .navbar.activate {
+        display: block;
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 2rem;
+        line-height: 5rem;
     }
 
     /* home */
