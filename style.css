@@ -216,10 +216,11 @@ span {
 /* Portfolio */
 .portfolio {
     background: var(--second-bg-color);
+    /* padding: 0; */
 }
 
 .portfolio h2 {
-    margin-bottom: 4rem;
+    padding-bottom: 6rem;
     font-size: 3rem;
     text-align: center;
 }
@@ -227,7 +228,7 @@ span {
 .portfolio-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    align-items: center;
+    place-items: center;
     gap: 2.5rem;
 }
 
@@ -257,7 +258,7 @@ span {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(0,0,0,.1), var(--main-color));
+    background: linear-gradient(rgba(0,0,0,.3), rgb(0, 79, 85));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -274,11 +275,13 @@ span {
 
 .portfolio-layer h4 {
     font-size: 3rem;
+    padding-bottom: 1rem;
 }
 
 .portfolio-layer p {
     font-size: 1.6rem;
     margin: 0.3rem, 0, 1rem;
+    padding-bottom: 2rem;
 }
 
 .portfolio-layer a {
