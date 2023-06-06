@@ -489,6 +489,10 @@ span {
         width: 25rem;
     }
 
+    .portfolio-layer p {
+        padding-bottom: 0.5rem;
+    }
+
     /* Contact */
     .contact-content h1 {
         display: none;
