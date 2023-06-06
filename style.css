@@ -475,12 +475,18 @@ span {
     }
 
     /* Portfolio */
+    .portfolio {
+        text-align: center;
+    }
     .portfolio-container {
-        display: inline;
+        display: inline-block;
     }
 
     .portfolio-box {
         margin: 2rem 0 2rem 0;
+
+        height: 20rem;
+        width: 25rem;
     }
 
     /* Contact */
