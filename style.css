@@ -35,10 +35,10 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 2rem 9%;
+    padding: 2rem 9% 2rem 1%;
     background-color: var(--bg-color);
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     z-index: 100;
 }
@@ -48,13 +48,31 @@ body {
 }
 
 .logo {
-    font-size: 2.5rem;
-    color: var(--text-color);
-    font-weight: 600;
-    cursor: default;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    width: 4rem;
+    height: 4rem;
+    color: var(--main-color);
+    background: transparent;
+    transition: 0.5s ease;
+    border-radius: 20%;
+
 }
 
-.navbar a{
+.logo:hover {
+    border-radius: 50%;
+    background-color: var(--main-color);
+    color: var(--second-bg-color);
+    box-shadow: 0 0 1rem var(--main-color);
+}
+
+.logoImg {
+    width: 5rem;
+}
+
+.navbar a {
     font-size: 1.7rem;
     color: var(--text-color);
     margin-left: 4rem;
@@ -89,7 +107,7 @@ span {
 }
 
 .home-img img{
-    width: 35vw;
+    width: 25vw;
     box-shadow: 0 0 1rem var(--main-color);
     transition: 0.5s ease;
 }
