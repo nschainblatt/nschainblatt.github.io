@@ -9,6 +9,10 @@
     font-family: sans-serif;
 }
 
+* img {
+    border-radius: 1rem;
+}
+
 :root {
     --bg-color: #1f242a;
     --second-bg-color: #323946; 
@@ -146,7 +150,7 @@ span {
     text-align: center;
 }
 
-.social-media a {
+.social-media .social-media-icons {
     font-size: 2rem;
     display: inline-flex;
     justify-content: center;
@@ -161,7 +165,7 @@ span {
     transition: 0.5s ease;
 }
 
-.social-media a:hover {
+.social-media .social-media-icons:hover {
     background-color: var(--main-color);
     color: var(--second-bg-color);
     box-shadow: 0 0 1rem var(--main-color);
@@ -172,7 +176,7 @@ span {
     padding: 1rem 2.8rem;
     background: var(--main-color);
     border-radius: 4rem;
-    box-shadow: 0 0 1rem var(--main-color);
+    box-shadow: 0 0 0.5rem var(--main-color);
     font-size: 1.6rem;
     letter-spacing: 0.1rem;
     font-weight: 600;
@@ -233,9 +237,7 @@ span {
 
 /* Portfolio */
 .portfolio {
-    
     background: var(--second-bg-color);
-    /* padding: 0; */
 }
 
 .portfolio h1 {
@@ -248,10 +250,6 @@ span {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* grid-template-columns: repeat(3, 1fr);
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    place-items: center;  */
     gap: 2.5rem; 
 }
 
