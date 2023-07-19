@@ -241,7 +241,7 @@ span {
 }
 
 .portfolio h1 {
-    padding-bottom: 6rem;
+    padding-bottom: 15rem;
     font-size: 4.5rem;
     text-align: center;
 }
@@ -263,7 +263,6 @@ span {
     height: 40rem;
     width: 50rem;
 }
-
 
 .portfolio-box img {
     transition: 0.5s ease;
